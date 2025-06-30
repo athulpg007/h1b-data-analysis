@@ -148,14 +148,14 @@ html.Div([
             )
         ], style={"marginLeft": "30px", "marginRight": "30px"}),
                 html.P([
-            "This dashboard uses the cleaned datasets created by Zongao Bian, available at ",
+            "This dashboard uses the cleaned dataset compiled by Zongao Bian, available at ",
             html.A(
                 "https://www.kaggle.com/datasets/zongaobian/h1b-lca-disclosure-data-2020-2024",
                 href="https://www.kaggle.com/datasets/zongaobian/h1b-lca-disclosure-data-2020-2024",
                 target="_blank",
                 style={"color": "blue", "textDecoration": "underline"}
             ),
-            " with additional processing to create the dashboard views."
+            " with additional processing of the dataset."
         ], style={"marginLeft": "30px", "marginRight": "30px"}),
         html.P([
             "© Athul Girija, 2025 | Licensed under ",

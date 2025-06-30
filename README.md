@@ -31,12 +31,8 @@ The application will start, and you can access it in your web browser at `http:/
 ## Features
 
 - Interactive visualizations of H1B visa data.
-- Ability to filter and explore data based on job titles and wages.
-- Responsive design for better user experience.
+- Ability to filter and explore data based on job titles and employers.
 
-## Contributing
-
-Contributions are welcome! Please feel free to submit a pull request or open an issue for any suggestions or improvements.
 
 ## License
 
