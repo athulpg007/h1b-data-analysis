@@ -55,7 +55,7 @@ app.layout = html.Div([
                 dcc.Loading(dcc.Graph(id='top-jobtitles-bar', style={"marginLeft": "30px", "width": "100%"}), type="circle"),
             ], style={"width": "48%", "display": "inline-block", "verticalAlign": "top"}),
             html.Div([
-                html.H2("Median prevailing wage of the top 20 job jitles", style={"marginTop": "30px", "marginLeft": "30px"}),
+                html.H2("Median prevailing wage of the top 20 job titles", style={"marginTop": "30px", "marginLeft": "30px"}),
                 dcc.Loading(dcc.Graph(id='top-jobtitles-wage-bar', style={"marginTop": "30px", "marginLeft": "30px", "width": "100%"}), type="circle"),
             ], style={"width": "48%", "display": "inline-block", "verticalAlign": "top"}),
         ], style={"width": "100%", "display": "flex", "flexDirection": "row"}),
