@@ -8,24 +8,24 @@ import plotly.graph_objects as go
 
 # Load the processed H1B visa data
 
-top_20_employers_df = pd.read_csv('src/data/top_20_employers.csv')
-top_20_employer_wage_stats = pd.read_csv('src/data/top_20_employer_wage_stats.csv')
-top_20_employers_merged = pd.read_csv('src/data/top_20_employers_merged.csv')
+top_20_employers_df = pd.read_csv('data/top_20_employers.csv')
+top_20_employer_wage_stats = pd.read_csv('data/top_20_employer_wage_stats.csv')
+top_20_employers_merged = pd.read_csv('data/top_20_employers_merged.csv')
 
-top_20_job_titles_df = pd.read_csv('src/data/top_20_job_titles.csv')
-top_20_job_title_wage_stats = pd.read_csv('src/data/top_20_job_title_wage_stats.csv')
-top_20_job_titles_merged = pd.read_csv('src/data/top_20_job_titles_merged.csv')
+top_20_job_titles_df = pd.read_csv('data/top_20_job_titles.csv')
+top_20_job_title_wage_stats = pd.read_csv('data/top_20_job_title_wage_stats.csv')
+top_20_job_titles_merged = pd.read_csv('data/top_20_job_titles_merged.csv')
 
-top_50_employers_by_median_wage = pd.read_csv('src/data/top_50_employers_by_median_wage.csv')
+top_50_employers_by_median_wage = pd.read_csv('data/top_50_employers_by_median_wage.csv')
 
-state_counts = pd.read_csv('src/data/state_counts.csv')
-state_median_wage = pd.read_csv('src/data/state_median_wage.csv')
+state_counts = pd.read_csv('data/state_counts.csv')
+state_median_wage = pd.read_csv('data/state_median_wage.csv')
 
-top_500_job_titles = pd.read_csv('src/data/top_500_job_titles.csv')
-top_2000_employers = pd.read_csv('src/data/top_2000_employers.csv')
+top_500_job_titles = pd.read_csv('data/top_500_job_titles.csv')
+top_2000_employers = pd.read_csv('data/top_2000_employers.csv')
 
-top_500_job_title_stats = pd.read_csv('src/data/top_500_job_title_stats.csv')
-top_2000_employer_stats = pd.read_csv('src/data/top_2000_employer_stats.csv')
+top_500_job_title_stats = pd.read_csv('data/top_500_job_title_stats.csv')
+top_2000_employer_stats = pd.read_csv('data/top_2000_employer_stats.csv')
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
