@@ -29,9 +29,8 @@ top_2000_employer_stats = pd.read_csv('data/top_2000_employer_stats.csv')
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
+app.title = "H1B Labor Condition Application (LCA) Data Analysis (2020-2024)"
 server = app.server
-
-# Add this near the top of your layout, outside any Divs:
 
 
 # Define the layout of the app
