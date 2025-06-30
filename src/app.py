@@ -29,7 +29,7 @@ top_2000_employer_stats = pd.read_csv('data/top_2000_employer_stats.csv')
 
 # Initialize the Dash app
 app = dash.Dash(__name__)
-app.title = "H1B Labor Condition Application (LCA) Data Analysis (2020-2024)"
+app.title = "H1B Data Analysis (2020-2024)"
 server = app.server
 
 
@@ -37,7 +37,7 @@ server = app.server
 app.layout = html.Div([
     dcc.Interval(id='jobtitle-histogram-interval', interval=500, n_intervals=0, max_intervals=1),
     dcc.Interval(id='employer-histogram-interval', interval=500, n_intervals=0, max_intervals=1),
-    html.H1("H1B Data Analysis (2020-2024)"),
+    html.H1("H1B Labor Condition Application (LCA) Data Analysis (2020-2024)"),
     html.Div([
         html.Div([
             html.Div([
