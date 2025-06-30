@@ -1,1 +1,1 @@
-web: gunicorn app:server --chdir src
+web: gunicorn app:server --chdir src --workers 1
